@@ -12,7 +12,16 @@ int main(void) {
     printf("volume: %d\n", volume);
  
     float f1 = 2150.48f;
+    printf("\n");
     printf("f1: %.3f\n", f1);
+    
+    printf("\n");
+    printf("division by int\n");
+    printf("height / width: %d\n", height / width);
+
+    printf("\n");
+    printf("division by float\n");
+    printf("height / width: %.4f\n", height / (float)width);
     return 0;
 }
 
